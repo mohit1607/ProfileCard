@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Assets/images/bg-pattern-top.svg);
+}
+
+.bcImage{
+   width: 100%;
+   height: 50%;
+}
+
+.profileCard{
+    margin-inline: 3%;
+    background-color: white;
+    margin: auto;
+    width: 375px;
+    height: 440px; 
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImage{
+    height:40%;
+}
+
+hr{
+    width: 100%;
+    margin-block: 30px;
+    background:hsla(229, 23%, 23%, 0.356);
+}
+
+
+.inbox{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+}
+
+.text{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    margin-inline: auto;
+    margin-top: -60px;
+}
+
+.subtext{
+color: hsl(0, 0%, 59%);
+text-transform: uppercase;
+font-size: 12px;
+}
+
+.place{
+    color: hsl(0, 0%, 59%);
+    
+}
